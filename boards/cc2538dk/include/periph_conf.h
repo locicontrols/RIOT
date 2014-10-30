@@ -83,8 +83,6 @@ extern "C" {
 
 #define UART_0_EN           1
 #define UART_1_EN           0
-#define UART_2_EN           0
-#define UART_3_EN           0
 
 #define UART_IRQ_PRIO       1
 
