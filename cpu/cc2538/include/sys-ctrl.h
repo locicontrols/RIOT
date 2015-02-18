@@ -42,7 +42,7 @@ typedef struct {
             cc2538_reg_t AMP_DET       : 1;  /**< Amplitude detector of XOSC during power up */
             cc2538_reg_t RESERVED4     : 2;  /**< Reserved bits */
             cc2538_reg_t OSC32K        : 1;  /**< 32-kHz clock oscillator selection */
-            cc2538_reg_t OSC32K_CADIS  : 1;  /**< Disable calibration 32-kHz RC oscillator */
+            cc2538_reg_t OSC32K_CALDIS : 1;  /**< Disable calibration 32-kHz RC oscillator */
             cc2538_reg_t RESERVED5     : 6;  /**< Reserved bits */
         } CLOCK_CTRLbits;
     };
